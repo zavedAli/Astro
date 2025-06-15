@@ -4,6 +4,49 @@ const Hero = () => {
       {/* Background Elements */}
       <div className="absolute inset-0 bg-mandala opacity-5"></div>
       
+      {/* Mandala Images */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Top Left Mandala */}
+        <div className="absolute left-8 top-20 w-24 opacity-10">
+          <img 
+            src="/src/assets/mandala.png" 
+            alt="Decorative Mandala" 
+            className="w-full h-auto mix-blend-multiply"
+            style={{ filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)' }}
+          />
+        </div>
+        
+        {/* Bottom Right Mandala */}
+        <div className="absolute right-12 bottom-32 w-1/3 opacity-15">
+          <img 
+            src="/src/assets/mandala.png" 
+            alt="Decorative Mandala" 
+            className="w-full h-auto mix-blend-multiply transform scale-x-[-1]"
+            style={{ filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)' }}
+          />
+        </div>
+
+        {/* Center Left Mandala */}
+        <div className="absolute left-16 top-1/2 -translate-y-1/2 w-[250px] opacity-20">
+          <img 
+            src="/src/assets/mandala.png" 
+            alt="Decorative Mandala" 
+            className="w-full h-auto mix-blend-multiply"
+            style={{ filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)' }}
+          />
+        </div>
+
+        {/* Top Right Mandala */}
+        <div className="absolute right-20 top-20 w-28 opacity-15">
+          <img 
+            src="/src/assets/mandala.png" 
+            alt="Decorative Mandala" 
+            className="w-full h-auto mix-blend-multiply transform scale-x-[-1]"
+            style={{ filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)' }}
+          />
+        </div>
+      </div>
+      
       {/* Decorative Images */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
         {/* Lakshmi Image */}
