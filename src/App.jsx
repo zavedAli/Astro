@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import Testimonials from './components/Testimonials'
+import ContactButtons from './components/ContactButtons'
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <ContactButtons />
     </div>
   )
 }
