@@ -2,8 +2,8 @@ import React from 'react';
 
 const ContactButtons = () => {
   // Replace these numbers with your actual contact numbers
-  const phoneNumber = '+919876543210'; // Replace with your phone number
-  const whatsappNumber = '919876543210'; // Replace with your WhatsApp number (without +)
+  const phoneNumber = '+919864311896'; // Replace with your phone number
+  const whatsappNumber = '9864311896'; // Replace with your WhatsApp number (without +)
 
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;
