@@ -8,20 +8,26 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
         {/* Lakshmi Image */}
         <div className="absolute top-4 left-1/2 -translate-x-1/2 w-32 h-32 md:w-48 md:h-48">
-          <img 
+          {/* <img 
             src="/images/lakshmi.png" 
             alt="Goddess Lakshmi" 
             className="w-full h-full object-contain"
-          />
+            loading="lazy"
+            width="192"
+            height="192"
+          /> */}
         </div>
         
         {/* Elephant Image */}
         <div className="absolute bottom-0 right-0 w-64 h-64 md:w-96 md:h-96 transform translate-x-1/4 translate-y-1/4">
-          <img 
+          {/* <img 
             src="/images/elephant.png" 
             alt="Decorative Elephant" 
             className="w-full h-full object-contain"
-          />
+            loading="lazy"
+            width="384"
+            height="384"
+          /> */}
         </div>
       </div>
       
