@@ -1,3 +1,5 @@
+import mandalaImage from '../assets/mandala.png';
+
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-saffron-50 to-spiritual-50 pt-20 overflow-hidden">
@@ -9,7 +11,7 @@ const Hero = () => {
         {/* Top Left Mandala */}
         <div className="absolute left-8 top-20 w-24 opacity-10">
           <img 
-            src="/src/assets/mandala.png" 
+            src={mandalaImage} 
             alt="Decorative Mandala" 
             className="w-full h-auto mix-blend-multiply"
             style={{ filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)' }}
@@ -19,7 +21,7 @@ const Hero = () => {
         {/* Bottom Right Mandala */}
         <div className="absolute right-12 bottom-32 w-1/3 opacity-15">
           <img 
-            src="/src/assets/mandala.png" 
+            src={mandalaImage} 
             alt="Decorative Mandala" 
             className="w-full h-auto mix-blend-multiply transform scale-x-[-1]"
             style={{ filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)' }}
@@ -29,7 +31,7 @@ const Hero = () => {
         {/* Center Left Mandala */}
         <div className="absolute left-16 top-1/2 -translate-y-1/2 w-[250px] opacity-20">
           <img 
-            src="/src/assets/mandala.png" 
+            src={mandalaImage} 
             alt="Decorative Mandala" 
             className="w-full h-auto mix-blend-multiply"
             style={{ filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)' }}
@@ -39,7 +41,7 @@ const Hero = () => {
         {/* Top Right Mandala */}
         <div className="absolute right-20 top-20 w-28 opacity-15">
           <img 
-            src="/src/assets/mandala.png" 
+            src={mandalaImage} 
             alt="Decorative Mandala" 
             className="w-full h-auto mix-blend-multiply transform scale-x-[-1]"
             style={{ filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)' }}
